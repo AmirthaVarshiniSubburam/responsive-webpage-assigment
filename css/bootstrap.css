@@ -1,0 +1,44 @@
+*{
+    font-family: 'Acme', sans-serif;font-size: 20px;
+}
+
+.footer{
+    background-color: #bb3385;
+    color:white;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.footer1 {
+    background-color: #872657;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    width: 100%;
+}
+
+.footlists {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footerhead {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.footerhead:hover {
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-bottom: 10px;
+    width: fit-content;
+    
+}
+
+.footerlist:hover {
+    color: black;
+    width: fit-content;
+}
